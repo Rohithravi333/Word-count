@@ -21,7 +21,7 @@ Print the output.
 To write a program for getting the word count from a file.
 Developed by: rohith r
 RegisterNumber: 212222230121
-
+```
 def wordcount():
     cnt = 0
     with open("MyFile.txt","r") as fp:
@@ -30,6 +30,7 @@ def wordcount():
             cnt += 1
     print("The number of words in the given file is:",cnt)
 wordcount()
+```
 ### OUTPUT:
 ![153130605-800df2b3-c476-413c-b85c-512547cae752](https://github.com/Rohithravi333/Word-count/assets/119394126/ea10b152-e87e-48a1-8f03-ba64df8e12ae)
 output:
